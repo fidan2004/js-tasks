@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+       <button  class="click"><b>Dropdown</b></button> 
+        <div class="list">
+            <button class="links">Select this option</button>
+            <button class="links">Choose something else</button>
+            <button class="links">Get help</button>
+            <button class="links">Contact us today</button>
+        </div>
+    </div>
+
+    <script>
+let click = document.querySelector('.click');
+let list = document.querySelector('.list');
+click.addEventListener("click" , ()=>
+{
+    list.classList.toggle('newList');
+});
+    </script>
+</body>
+</html>

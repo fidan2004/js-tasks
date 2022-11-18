@@ -1,0 +1,6 @@
+[
+    {"content": "employee","name":"Fidan","surname":"Karimova","age":"18","salary":1000},
+    {"content": "employee","name":"Subhan","surname":"Aslanov","age":"21","salary":1500},
+    {"content": "employee","name":"Jala","surname":"Aliyeva","age":"22","salary":1400},
+    {"content": "employee","name":"Omar","surname":"Muradov","age":"25","salary":1300}
+]

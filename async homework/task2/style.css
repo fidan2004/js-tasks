@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    display:flex;     
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 200px;
+    position: relative;
+}
+.click,.links
+{
+    padding:11px;
+    font-size: 1.2em;
+    border: 1px solid rgb(171, 167, 161); 
+    width:200px;
+    color:  black; 
+}
+.list
+{
+   
+    transform:scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+}
+.click:hover{
+    background-color: rgb(235, 90, 90);
+  
+}
+.newList
+{
+    transform: scaleY(1);
+}
+.links:hover{
+    background-color: rgba(101, 101, 228, 0.694);
+    transform:scale(1.03);
+}
